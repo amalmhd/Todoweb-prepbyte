@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.upper-container{
+    margin: 50px auto;
+    width: 60%;
+    height: 10%;
+    position: relative;
+}
+
+.upper-container1{
+    width: 40%;
+    height: 100%;
+    padding-top: 20px;
+}
+
+#tasks{
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+#lists{
+    font-size: 2.5rem;
+    opacity: 0.5;
+}
+
+.upper-container2{
+    width: 35%;
+    height: 100%;
+    padding-top: 30px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#addlist{
+    width: 80%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    opacity: 0.5;
+    font-size: 24px;
+    display: inline;
+}
+
+
+#circle{
+    display: inline;
+}
+
+
+
+
+
+
+
+
+.card-container{
+    border: 1.5px solid red;
+    height: 45vh;
+    width: 14%;
+    border-radius: 8px;
+    position: relative;
+    box-shadow: 5px 5px 10px grey;
+    /* text-align: center; */
+    /* margin: auto; */
+    left: 20%;
+    display: inline-block;
+    padding: 6px;
+    
+}
+
+.card1{
+    position: absolute;
+    opacity: 50%;
+    top: 10%;
+    right: 0px;
+    width: 85%;
+    font-size: 16px;
+    color: red;
+    text-align: left;
+    height: 15%;
+    border-bottom: 1.5px black solid;
+}
+
+.card2{
+    position: absolute;
+    top: 35%;
+    /* right: 6px; */
+    width: 90%;
+    height: 20%;
+    text-align: right;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: line-through red;
+    color: red;
+}
+
+.card3
+{
+    position: absolute;
+    top: 50%;
+    /* margin-left: 8px; */
+    font-size: 13px;
+}
+
+#check{
+    /* position: relative; */
+    top: 3px;
+    border-radius: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+.card-container1{
+    border: 1.5px solid red;
+    height: 45vh;
+    width: 14%;
+
+    border-radius: 8px;
+    position: relative;
+    box-shadow: 5px 5px 10px grey;
+    /* text-align: center; */
+    /* margin: auto; */
+    left: 25%;
+    display: inline-block;
+    padding: 6px;
+    
+}
+
+.card1{
+    position: absolute;
+    opacity: 50%;
+    top: 10%;
+    right: 0px;
+    width: 85%;
+    font-size: 16px;
+    color: red;
+    text-align: left;
+    height: 15%;
+    border-bottom: 1.5px black solid;
+}
+
+.card2{
+    position: absolute;
+    top: 35%;
+    /* right: 6px; */
+    width: 90%;
+    height: 20%;
+    text-align: right;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: line-through red;
+    color: red;
+}
+
+.card3
+{
+    position: absolute;
+    top: 50%;
+    /* margin-left: 8px; */
+    font-size: 13px;
+}
+
+#check{
+    /* position: relative; */
+    top: 3px;
+    border-radius: 0;
+}
+
+
+
+
+
+
+
+
+
+
+.card-container2{
+    border: 1.5px solid red;
+    height: 45vh;
+    width: 14%;
+    border-radius: 8px;
+    position: relative;
+    box-shadow: 5px 5px 10px grey;
+    /* text-align: center; */
+    /* margin: auto; */
+    left: 30%;
+    display: inline-block;
+    padding: 6px;
+    
+}
+
+.card1{
+    position: absolute;
+    opacity: 50%;
+    top: 10%;
+    right: 0px;
+    width: 85%;
+    font-size: 16px;
+    color: red;
+    text-align: left;
+    height: 15%;
+    border-bottom: 1.5px black solid;
+}
+
+.card2{
+    position: absolute;
+    top: 35%;
+    /* right: 6px; */
+    width: 90%;
+    height: 20%;
+    text-align: right;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: line-through red;
+    color: red;
+}
+
+.card3
+{
+    position: absolute;
+    top: 50%;
+    /* margin-left: 8px; */
+    font-size: 13px;
+}
+
+#check{
+    /* position: relative; */
+    top: 3px;
+    border-radius: 0;
+}
+
+.blur{
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+}
+
+.popup{
+    position: relative;
+    left: 35%;
+    bottom: 40vh;
+    width: 30%;
+    height: 200px;
+    border: 1px solid red;
+    box-shadow: 5px 5px 6px grey;
+    border-radius: 10px;
+    color: red;
+    font-size: 20px;
+    background-color: aliceblue;
+    box-shadow: 5px 5px 6px grey;
+}
+
+#pop{
+    position: relative;
+    top: 38px;
+    right: 1%;
+
+}
+
+.poptext{
+    position: relative;
+    top: 9vh;
+    width: 68%;
+    height: 30px;
+    border: 1.5px solid red;
+    box-shadow: 2px 2px 2px grey;
+    border-radius: 7px;
+}
+
+.popbutton{
+    position: relative;
+    left: 40%;
+    top: 80px;
+    background-color: red;
+    width: 18%;
+    color: aliceblue;
+    border: 0;
+    height: 30px;
+    border-radius: 20px;
+    font-size: 16px;
+}
